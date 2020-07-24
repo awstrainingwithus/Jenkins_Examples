@@ -8,6 +8,8 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
+git clone https://github.com/awstrainingwithus/Jenkins_Examples.git
+cd Jenkins_Examples
 docker-compose up -d 
 docker ps
 
@@ -27,6 +29,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 docker-compose -v
+
+git clone https://github.com/awstrainingwithus/Jenkins_Examples.git
+cd Jenkins_Examples
+
 docker-compose up -d 
 docker ps
-
